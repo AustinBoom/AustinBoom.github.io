@@ -1,3 +1,3 @@
 # AustinBoom.github.io
 
-**Austin Huyboom**
+Made by **Austin Huyboom**. A website about me made by me.
