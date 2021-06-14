@@ -1,0 +1,71 @@
+*{
+    background-color: peachpuff;
+}
+h1 {
+    color: darkblue;
+    font-family: Gadugi;
+}
+
+button{
+    border-width: thick;
+    border-color: cornflowerblue;
+    color: lawngreen;
+    font-weight: bolder;
+    background: aqua;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+
+#button1:hover {
+    background-color: darkorange;
+}
+
+.arrows{
+    border-width: medium;
+    border-color: cornflowerblue;
+    color: green;
+    font-weight: bolder;
+    background: aqua;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: darkblue;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#left {
+    position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 45%;
+}
+
+#right {
+    position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 55%;
+}
+
+#up {
+    position:absolute;
+    transition: .5s ease;
+    top: 45%;
+    left: 50%;
+}
+
+#down {
+    position:absolute;
+    transition: .5s ease;
+    top: 55%;
+    left: 50%;
+}
