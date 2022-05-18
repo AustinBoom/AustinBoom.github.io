@@ -130,9 +130,19 @@
                                     This class has a narrow pass rate at UVU</a> and is a collective of
                                     everything you have learned in your degree. In this class I built a compiler
                                     from scratch, by myself, which compiles a language called kxi into target assembly code.
-                                    Kxi is an object oriented language, similar to Java or C++. The target ASM code that
-                                    is generated from the compiler is then fed into the virtual machine to be executed.
-                                    The virtual machine is the project from the previous semester.</li>
+                                    Kxi is an object oriented language, similar to Java or C++. I used ANTLR for my lexer
+                                    and parser tool, which after the steep (and widely infamous) learning curve,
+                                    was a fantastic tool! After lexing
+                                    and parsing, I used the generated visitor pattern to complete several steps of the process;
+                                    such as making a symbol table, traversing the parse tree to enforce semantics, and to
+                                    enforce precedence by organizing statements into binops with my weapon of choice
+                                    being the stack. From there I was able to swiftly generate
+                                    the target code using virtual registers to allocate and facilitate register usage.
+                                    The target ASM code that is generated from the compiler
+                                    is then fed into the virtual machine to be executed.
+                                    The virtual machine is the project from the previous semester. This compiler course
+                                    is the class that set me apart from my peers, and where I proved to myself that I can do
+                                    things even if I think I cant!</li>
                                 </ul>
                                 <li>Advanced High-Performance Computer Architecture.</li>
                                 <ul>
